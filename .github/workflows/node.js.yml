@@ -33,6 +33,10 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
 
     steps:
+    - name: Checkout project
+      uses: actions/checkout@v2
+    - name: Setup dependencies
+      run: yarn
     - name: Generate documentation
       run: yarn doc
     - name: Deploy documentation
