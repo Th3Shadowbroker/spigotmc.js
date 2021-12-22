@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn test && yarn build",
+    "prepublish": "yarn test && yarn build",
     "test": "jest"
   },
   "dependencies": {
