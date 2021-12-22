@@ -13,6 +13,9 @@ SpigotMC.js is an API wrapper for the [XenforoResourceManageAPI](https://github.
 ## Dependencies
 **Axios**: This library uses the popular Axios REST client to perform requests to the Spigot API.
 
+## Documentation
+A full documentation can be found on [GitHub Pages](https://th3shadowbroker.github.io/spigotmc.js/).
+
 ## Usage
 ```typescript
 import { Spigot } from '@th3shadowbroker/spigotmc.js';
