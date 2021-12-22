@@ -1,4 +1,9 @@
 # SpigotMC.js
+![](https://img.shields.io/github/issues/Th3Shadowbroker/spigotmc.js)
+![](https://img.shields.io/github/forks/Th3Shadowbroker/spigotmc.js)
+![](https://img.shields.io/github/stars/Th3Shadowbroker/spigotmc.js)
+![](https://img.shields.io/github/license/Th3Shadowbroker/spigotmc.js)
+
 SpigotMC.js is an API wrapper for the [XenforoResourceManageAPI](https://github.com/SpigotMC/XenforoResourceManagerAPI). This project is fully open-source.
 
 **Using SpigotMC.js in your project**
