@@ -25,9 +25,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
     - run: yarn
-    - name: Generate & deploy documentation
+    - name: Generate documentation
       if: ${{ github.ref == 'refs/heads/main' }}
       run: yarn doc
+    - name: Deploy documentation
+      if: ${{ github.ref == 'refs/heads/main' }}
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
         branch: gh-pages
