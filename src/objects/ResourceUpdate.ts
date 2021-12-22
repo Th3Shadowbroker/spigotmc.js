@@ -1,7 +1,7 @@
 /**
  * Represents a resource update.
  */
-interface ResourceUpdate {
+ export interface ResourceUpdate {
     id: number;
     resource_id: number;
     title: string;

@@ -1,7 +1,7 @@
 /**
  * Represents a resource category.
  */
-interface ResourceCategory {
+ export interface ResourceCategory {
     id: number;
     title: string;
     description: string;

@@ -1,7 +1,7 @@
 /**
  * Represents an author.
  */
-interface Author {   
+export interface Author {   
     id: number;
     username: string;
     resource_count: number;

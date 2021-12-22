@@ -8,7 +8,7 @@ import Author from './objects/Author';
 /**
  * A client wrapper for the Spigot XenforoResourceManagerAPI.
  */
-class Spigot {
+export class Spigot {
 
     /**
      * The axios instance used to make requests.

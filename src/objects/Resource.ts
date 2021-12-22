@@ -1,7 +1,7 @@
 /**
  * Represents a resource.
  */
-interface Resource {
+ export interface Resource {
     id: number;
     title: string;
     tag: string;
