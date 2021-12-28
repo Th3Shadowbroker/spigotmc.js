@@ -42,8 +42,12 @@ export class Spigot {
                 }
             });
 
-            return response.data.id != null ? mapToResource(response.data): undefined;
-        } catch (err) {
+            return mapToResource(response.data);
+        } catch (err: any) {
+            if (err.isAxiosError && (err as AxiosError).response?.status === 404) {
+                return undefined;
+            }
+
             throw err;
         }
     }
@@ -65,7 +69,7 @@ export class Spigot {
             });
 
             return response.data.map((r: any) => mapToResource(r));
-        } catch (err) {
+        } catch (err: any) {
             throw err;
         }
     }
@@ -171,8 +175,12 @@ export class Spigot {
                 }
             });
 
-            return response.data.id != null ? mapToAuthor(response.data) : undefined;
-        } catch (err) {
+            return mapToAuthor(response.data);
+        } catch (err: any) {
+            if (err.isAxiosError && (err as AxiosError).response?.status === 404) {
+                return undefined;
+            }
+
             throw err;
         }
     }
