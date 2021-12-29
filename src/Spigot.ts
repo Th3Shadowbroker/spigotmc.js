@@ -63,7 +63,7 @@ export class Spigot {
             const response = await this._axios.get("", {
                 params: {
                     action: "listResources",
-                    cat: categoryId,
+                    category: categoryId,
                     page: page || 1
                 }
             });
