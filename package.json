@@ -1,6 +1,6 @@
 {
   "name": "@th3shadowbroker/spigotmc.js",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "main": "dist/index.js",
   "author": {
