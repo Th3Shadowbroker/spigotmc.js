@@ -10,7 +10,7 @@ const ids = {
     },
 
     invalid: {
-        author: 0,
+        author: -1,
         authorUsername: "someuserthatdoesnotexist",
         resource: 0,
         update: 0
