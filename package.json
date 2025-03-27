@@ -34,7 +34,7 @@
     "@types/node": "22.13.14",
     "jest": "29.7.0",
     "ts-jest": "29.2.6",
-    "typedoc": "0.24.8",
+    "typedoc": "0.28.1",
     "typescript": "5.8.2"
   },
   "files": [
